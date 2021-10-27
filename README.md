@@ -58,7 +58,7 @@ O Codeigniter implementa os PSRs 1, 2, 3, 4, 6, 7 e 16. A métodologia mvc imple
 Para maior comodidade estou trabalhando para colocar auto-ssl e as migrations/seed para rodar junto com o docker-compose.
 
 #### Spoofing de método HTTP
-- O protocolo http utilizado nos browsers acredito só implementar get e post. Mas é possível utilizar um campo input em um form html para determinar o uso da rota determinada para update (put).
+O protocolo http utilizado nos browsers acredito só implementar get e post. Mas é possível utilizar um campo input em um form html para determinar o uso da rota determinada para update (put).
 https://codeigniter.com/user_guide/incoming/methodspoofing.html
 
 
