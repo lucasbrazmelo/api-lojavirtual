@@ -1,0 +1,308 @@
+AH00112: Warning: DocumentRoot [/var/www/html/public] does not exist
+[Mon Oct 25 16:00:18.196979 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.51 (Debian) PHP/7.4.25 configured -- resuming normal operations
+[Mon Oct 25 16:00:18.197094 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Mon Oct 25 16:04:39.642534 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+[Mon Oct 25 16:04:44.844921 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.51 (Debian) PHP/7.4.25 configured -- resuming normal operations
+[Mon Oct 25 16:04:44.845371 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Mon Oct 25 16:04:49.889381 2021] [php7:error] [pid 17] [client 172.21.0.1:51590] PHP Fatal error:  Uncaught Error: Call to undefined function php_info() in /var/www/html/index.php:2\nStack trace:\n#0 {main}\n  thrown in /var/www/html/index.php on line 2
+[Mon Oct 25 16:05:03.399603 2021] [php7:error] [pid 18] [client 172.21.0.1:51704] PHP Fatal error:  Uncaught Error: Call to undefined function php_info() in /var/www/html/index.php:2\nStack trace:\n#0 {main}\n  thrown in /var/www/html/index.php on line 2
+[Mon Oct 25 16:22:52.419152 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+[Mon Oct 25 16:25:35.539912 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.51 (Debian) PHP/7.4.25 configured -- resuming normal operations
+[Mon Oct 25 16:25:35.539951 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Mon Oct 25 16:38:38.261381 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+[Mon Oct 25 16:38:44.216456 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.51 (Debian) PHP/7.4.25 configured -- resuming normal operations
+[Mon Oct 25 16:38:44.216499 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Mon Oct 25 16:39:14.460804 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+[Mon Oct 25 16:39:28.734617 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.51 (Debian) PHP/7.4.25 configured -- resuming normal operations
+[Mon Oct 25 16:39:28.734660 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Mon Oct 25 16:41:08.815303 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+[Mon Oct 25 16:41:15.187294 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.51 (Debian) PHP/7.4.25 configured -- resuming normal operations
+[Mon Oct 25 16:41:15.187343 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Mon Oct 25 16:42:24.793233 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+[Mon Oct 25 16:42:30.431663 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.51 (Debian) PHP/7.4.25 configured -- resuming normal operations
+[Mon Oct 25 16:42:30.431700 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Mon Oct 25 17:34:56.611375 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+[Mon Oct 25 17:35:14.310947 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.51 (Debian) PHP/7.4.25 configured -- resuming normal operations
+[Mon Oct 25 17:35:14.310982 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Mon Oct 25 23:20:31.020307 2021] [php7:error] [pid 18] [client 172.27.0.1:33306] PHP Fatal error:  Constant expression contains invalid operations in /var/www/html/app/Models/UserModel.php on line 46
+[Tue Oct 26 01:28:56.484115 2021] [php7:error] [pid 33] [client 172.27.0.1:34240] PHP Fatal error:  Constant expression contains invalid operations in /var/www/html/app/Controllers/User.php on line 9
+[Tue Oct 26 01:29:24.759909 2021] [php7:error] [pid 21] [client 172.27.0.1:34246] PHP Fatal error:  Constant expression contains invalid operations in /var/www/html/app/Controllers/User.php on line 9
+[Tue Oct 26 20:09:14.381434 2021] [php7:error] [pid 18] [client 172.27.0.1:37428] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 262144 bytes) in /var/www/html/system/HTTP/MessageTrait.php on line 129
+[Tue Oct 26 20:09:14.382024 2021] [php7:error] [pid 18] [client 172.27.0.1:37428] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 262144 bytes) in Unknown on line 0
+[Tue Oct 26 20:09:14.382067 2021] [php7:error] [pid 18] [client 172.27.0.1:37428] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 262144 bytes) in Unknown on line 0
+[Tue Oct 26 20:09:59.835466 2021] [php7:error] [pid 21] [client 172.27.0.1:37438] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 262144 bytes) in /var/www/html/system/HTTP/MessageTrait.php on line 212
+[Tue Oct 26 20:09:59.835548 2021] [php7:error] [pid 21] [client 172.27.0.1:37438] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 262144 bytes) in Unknown on line 0
+[Tue Oct 26 20:09:59.835579 2021] [php7:error] [pid 21] [client 172.27.0.1:37438] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 262144 bytes) in Unknown on line 0
+[Tue Oct 26 20:10:53.658109 2021] [php7:error] [pid 17] [client 172.27.0.1:37450] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 262144 bytes) in /var/www/html/system/HTTP/MessageTrait.php on line 212
+[Tue Oct 26 20:10:53.666089 2021] [php7:error] [pid 17] [client 172.27.0.1:37450] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 262144 bytes) in Unknown on line 0
+[Tue Oct 26 20:10:53.666126 2021] [php7:error] [pid 17] [client 172.27.0.1:37450] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 262144 bytes) in Unknown on line 0
+[Tue Oct 26 20:11:17.708619 2021] [php7:error] [pid 19] [client 172.27.0.1:37462] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 262144 bytes) in /var/www/html/system/HTTP/MessageTrait.php on line 212
+[Tue Oct 26 20:11:17.708712 2021] [php7:error] [pid 19] [client 172.27.0.1:37462] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 262144 bytes) in Unknown on line 0
+[Tue Oct 26 20:11:17.708754 2021] [php7:error] [pid 19] [client 172.27.0.1:37462] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 262144 bytes) in Unknown on line 0
+[Tue Oct 26 20:11:32.600873 2021] [php7:error] [pid 18] [client 172.27.0.1:37468] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 262144 bytes) in /var/www/html/system/HTTP/MessageTrait.php on line 212
+[Tue Oct 26 20:11:32.600975 2021] [php7:error] [pid 18] [client 172.27.0.1:37468] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 262144 bytes) in Unknown on line 0
+[Tue Oct 26 20:11:32.601022 2021] [php7:error] [pid 18] [client 172.27.0.1:37468] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 262144 bytes) in Unknown on line 0
+[Tue Oct 26 20:11:59.335999 2021] [php7:error] [pid 21] [client 172.27.0.1:37476] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 262144 bytes) in /var/www/html/system/HTTP/MessageTrait.php on line 212
+[Tue Oct 26 20:11:59.336084 2021] [php7:error] [pid 21] [client 172.27.0.1:37476] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 262144 bytes) in Unknown on line 0
+[Tue Oct 26 20:11:59.336129 2021] [php7:error] [pid 21] [client 172.27.0.1:37476] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 262144 bytes) in Unknown on line 0
+[Tue Oct 26 20:14:01.302639 2021] [php7:error] [pid 20] [client 172.27.0.1:37482] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 262144 bytes) in /var/www/html/system/HTTP/MessageTrait.php on line 212
+[Tue Oct 26 20:14:01.302725 2021] [php7:error] [pid 20] [client 172.27.0.1:37482] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 262144 bytes) in Unknown on line 0
+[Tue Oct 26 20:14:01.302779 2021] [php7:error] [pid 20] [client 172.27.0.1:37482] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 262144 bytes) in Unknown on line 0
+[Tue Oct 26 20:14:41.500226 2021] [php7:error] [pid 33] [client 172.27.0.1:37490] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 262144 bytes) in /var/www/html/system/HTTP/MessageTrait.php on line 212
+[Tue Oct 26 20:14:41.500296 2021] [php7:error] [pid 33] [client 172.27.0.1:37490] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 262144 bytes) in Unknown on line 0
+[Tue Oct 26 20:14:41.500337 2021] [php7:error] [pid 33] [client 172.27.0.1:37490] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 262144 bytes) in Unknown on line 0
+[Tue Oct 26 20:30:21.731105 2021] [php7:error] [pid 18] [client 172.27.0.1:37644] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 262144 bytes) in /var/www/html/system/HTTP/MessageTrait.php on line 212
+[Tue Oct 26 20:30:21.731582 2021] [php7:error] [pid 18] [client 172.27.0.1:37644] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 262144 bytes) in Unknown on line 0
+[Tue Oct 26 20:30:21.731632 2021] [php7:error] [pid 18] [client 172.27.0.1:37644] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 262144 bytes) in Unknown on line 0
+[Tue Oct 26 20:30:41.226245 2021] [php7:error] [pid 22] [client 172.27.0.1:37652] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 262144 bytes) in /var/www/html/system/HTTP/MessageTrait.php on line 212
+[Tue Oct 26 20:30:41.226607 2021] [php7:error] [pid 22] [client 172.27.0.1:37652] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 262144 bytes) in Unknown on line 0
+[Tue Oct 26 20:30:41.226652 2021] [php7:error] [pid 22] [client 172.27.0.1:37652] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 262144 bytes) in Unknown on line 0
+[Tue Oct 26 21:29:51.554663 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+[Tue Oct 26 21:49:32.179536 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.51 (Debian) PHP/7.4.25 configured -- resuming normal operations
+[Tue Oct 26 21:49:32.179755 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Tue Oct 26 21:56:50.099310 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+[Tue Oct 26 21:59:44.658825 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.51 (Debian) PHP/7.4.25 configured -- resuming normal operations
+[Tue Oct 26 21:59:44.658890 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Tue Oct 26 22:00:54.249411 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+[Tue Oct 26 22:01:01.042528 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.51 (Debian) PHP/7.4.25 configured -- resuming normal operations
+[Tue Oct 26 22:01:01.042577 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Tue Oct 26 22:05:10.442451 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+[Tue Oct 26 22:13:54.688555 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.51 (Debian) PHP/7.4.25 configured -- resuming normal operations
+[Tue Oct 26 22:13:54.688734 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Tue Oct 26 22:31:12.602587 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+[Tue Oct 26 22:32:51.908448 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.51 (Debian) PHP/7.4.25 configured -- resuming normal operations
+[Tue Oct 26 22:32:51.908498 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Tue Oct 26 22:34:02.061340 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+[Tue Oct 26 22:34:03.919225 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.51 (Debian) PHP/7.4.25 configured -- resuming normal operations
+[Tue Oct 26 22:34:03.919271 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Tue Oct 26 22:41:03.310106 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+[Tue Oct 26 22:41:05.153870 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.51 (Debian) PHP/7.4.25 configured -- resuming normal operations
+[Tue Oct 26 22:41:05.153927 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Tue Oct 26 22:43:16.838573 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+[Wed Oct 27 00:22:36.595673 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.51 (Debian) PHP/7.4.25 configured -- resuming normal operations
+[Wed Oct 27 00:22:36.595849 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Wed Oct 27 00:28:27.324494 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+[Wed Oct 27 00:28:29.198749 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.51 (Debian) PHP/7.4.25 configured -- resuming normal operations
+[Wed Oct 27 00:28:29.198794 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Wed Oct 27 00:37:42.058551 2021] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+[Wed Oct 27 00:39:10.619495 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.51 (Debian) PHP/7.4.25 configured -- resuming normal operations
+[Wed Oct 27 00:39:10.619566 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Wed Oct 27 00:41:00.222501 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+[Wed Oct 27 00:51:44.081086 2021] [ssl:warn] [pid 1] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Oct 27 00:51:44.081458 2021] [ssl:emerg] [pid 1] AH02562: Failed to configure certificate localhost:443:0 (with chain), check /etc/apache2/ssl/phpit.crt
+[Wed Oct 27 00:51:44.081476 2021] [ssl:emerg] [pid 1] SSL Library Error: error:140AB18F:SSL routines:SSL_CTX_use_certificate:ee key too small
+AH00016: Configuration Failed
+[Wed Oct 27 00:51:44.789422 2021] [ssl:warn] [pid 1] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Oct 27 00:51:44.789784 2021] [ssl:emerg] [pid 1] AH02562: Failed to configure certificate localhost:443:0 (with chain), check /etc/apache2/ssl/phpit.crt
+[Wed Oct 27 00:51:44.789802 2021] [ssl:emerg] [pid 1] SSL Library Error: error:140AB18F:SSL routines:SSL_CTX_use_certificate:ee key too small
+AH00016: Configuration Failed
+[Wed Oct 27 00:51:45.573816 2021] [ssl:warn] [pid 1] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Oct 27 00:51:45.574161 2021] [ssl:emerg] [pid 1] AH02562: Failed to configure certificate localhost:443:0 (with chain), check /etc/apache2/ssl/phpit.crt
+[Wed Oct 27 00:51:45.574177 2021] [ssl:emerg] [pid 1] SSL Library Error: error:140AB18F:SSL routines:SSL_CTX_use_certificate:ee key too small
+AH00016: Configuration Failed
+[Wed Oct 27 00:51:46.518150 2021] [ssl:warn] [pid 1] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Oct 27 00:51:46.518468 2021] [ssl:emerg] [pid 1] AH02562: Failed to configure certificate localhost:443:0 (with chain), check /etc/apache2/ssl/phpit.crt
+[Wed Oct 27 00:51:46.518481 2021] [ssl:emerg] [pid 1] SSL Library Error: error:140AB18F:SSL routines:SSL_CTX_use_certificate:ee key too small
+AH00016: Configuration Failed
+[Wed Oct 27 00:51:47.787344 2021] [ssl:warn] [pid 1] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Oct 27 00:51:47.787656 2021] [ssl:emerg] [pid 1] AH02562: Failed to configure certificate localhost:443:0 (with chain), check /etc/apache2/ssl/phpit.crt
+[Wed Oct 27 00:51:47.787679 2021] [ssl:emerg] [pid 1] SSL Library Error: error:140AB18F:SSL routines:SSL_CTX_use_certificate:ee key too small
+AH00016: Configuration Failed
+[Wed Oct 27 00:51:49.894614 2021] [ssl:warn] [pid 1] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Oct 27 00:51:49.894956 2021] [ssl:emerg] [pid 1] AH02562: Failed to configure certificate localhost:443:0 (with chain), check /etc/apache2/ssl/phpit.crt
+[Wed Oct 27 00:51:49.894972 2021] [ssl:emerg] [pid 1] SSL Library Error: error:140AB18F:SSL routines:SSL_CTX_use_certificate:ee key too small
+AH00016: Configuration Failed
+[Wed Oct 27 00:51:53.715717 2021] [ssl:warn] [pid 1] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Oct 27 00:51:53.716070 2021] [ssl:emerg] [pid 1] AH02562: Failed to configure certificate localhost:443:0 (with chain), check /etc/apache2/ssl/phpit.crt
+[Wed Oct 27 00:51:53.716086 2021] [ssl:emerg] [pid 1] SSL Library Error: error:140AB18F:SSL routines:SSL_CTX_use_certificate:ee key too small
+AH00016: Configuration Failed
+[Wed Oct 27 00:54:19.873681 2021] [ssl:warn] [pid 1] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Oct 27 00:54:19.874043 2021] [ssl:emerg] [pid 1] AH02562: Failed to configure certificate localhost:443:0 (with chain), check /etc/apache2/ssl/phpit.crt
+[Wed Oct 27 00:54:19.874061 2021] [ssl:emerg] [pid 1] SSL Library Error: error:140AB18F:SSL routines:SSL_CTX_use_certificate:ee key too small
+AH00016: Configuration Failed
+[Wed Oct 27 00:54:20.567456 2021] [ssl:warn] [pid 1] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Oct 27 00:54:20.567764 2021] [ssl:emerg] [pid 1] AH02562: Failed to configure certificate localhost:443:0 (with chain), check /etc/apache2/ssl/phpit.crt
+[Wed Oct 27 00:54:20.567781 2021] [ssl:emerg] [pid 1] SSL Library Error: error:140AB18F:SSL routines:SSL_CTX_use_certificate:ee key too small
+AH00016: Configuration Failed
+[Wed Oct 27 00:54:21.256084 2021] [ssl:warn] [pid 1] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Oct 27 00:54:21.256426 2021] [ssl:emerg] [pid 1] AH02562: Failed to configure certificate localhost:443:0 (with chain), check /etc/apache2/ssl/phpit.crt
+[Wed Oct 27 00:54:21.256443 2021] [ssl:emerg] [pid 1] SSL Library Error: error:140AB18F:SSL routines:SSL_CTX_use_certificate:ee key too small
+AH00016: Configuration Failed
+[Wed Oct 27 00:54:22.179089 2021] [ssl:warn] [pid 1] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Oct 27 00:54:22.179438 2021] [ssl:emerg] [pid 1] AH02562: Failed to configure certificate localhost:443:0 (with chain), check /etc/apache2/ssl/phpit.crt
+[Wed Oct 27 00:54:22.179455 2021] [ssl:emerg] [pid 1] SSL Library Error: error:140AB18F:SSL routines:SSL_CTX_use_certificate:ee key too small
+AH00016: Configuration Failed
+[Wed Oct 27 00:54:23.446307 2021] [ssl:warn] [pid 1] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Oct 27 00:54:23.446618 2021] [ssl:emerg] [pid 1] AH02562: Failed to configure certificate localhost:443:0 (with chain), check /etc/apache2/ssl/phpit.crt
+[Wed Oct 27 00:54:23.446632 2021] [ssl:emerg] [pid 1] SSL Library Error: error:140AB18F:SSL routines:SSL_CTX_use_certificate:ee key too small
+AH00016: Configuration Failed
+[Wed Oct 27 00:54:25.619216 2021] [ssl:warn] [pid 1] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Oct 27 00:54:25.619517 2021] [ssl:emerg] [pid 1] AH02562: Failed to configure certificate localhost:443:0 (with chain), check /etc/apache2/ssl/phpit.crt
+[Wed Oct 27 00:54:25.619533 2021] [ssl:emerg] [pid 1] SSL Library Error: error:140AB18F:SSL routines:SSL_CTX_use_certificate:ee key too small
+AH00016: Configuration Failed
+[Wed Oct 27 00:54:29.317421 2021] [ssl:warn] [pid 1] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Oct 27 00:54:29.318079 2021] [ssl:emerg] [pid 1] AH02562: Failed to configure certificate localhost:443:0 (with chain), check /etc/apache2/ssl/phpit.crt
+[Wed Oct 27 00:54:29.318101 2021] [ssl:emerg] [pid 1] SSL Library Error: error:140AB18F:SSL routines:SSL_CTX_use_certificate:ee key too small
+AH00016: Configuration Failed
+[Wed Oct 27 00:57:21.746410 2021] [ssl:warn] [pid 1] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Oct 27 00:57:21.746780 2021] [ssl:emerg] [pid 1] AH02562: Failed to configure certificate localhost:443:0 (with chain), check /etc/apache2/ssl/phpit.crt
+[Wed Oct 27 00:57:21.746796 2021] [ssl:emerg] [pid 1] SSL Library Error: error:140AB18F:SSL routines:SSL_CTX_use_certificate:ee key too small
+AH00016: Configuration Failed
+[Wed Oct 27 00:57:22.450138 2021] [ssl:warn] [pid 1] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Oct 27 00:57:22.450456 2021] [ssl:emerg] [pid 1] AH02562: Failed to configure certificate localhost:443:0 (with chain), check /etc/apache2/ssl/phpit.crt
+[Wed Oct 27 00:57:22.450472 2021] [ssl:emerg] [pid 1] SSL Library Error: error:140AB18F:SSL routines:SSL_CTX_use_certificate:ee key too small
+AH00016: Configuration Failed
+[Wed Oct 27 00:57:23.169224 2021] [ssl:warn] [pid 1] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Oct 27 00:57:23.169487 2021] [ssl:emerg] [pid 1] AH02562: Failed to configure certificate localhost:443:0 (with chain), check /etc/apache2/ssl/phpit.crt
+[Wed Oct 27 00:57:23.169499 2021] [ssl:emerg] [pid 1] SSL Library Error: error:140AB18F:SSL routines:SSL_CTX_use_certificate:ee key too small
+AH00016: Configuration Failed
+[Wed Oct 27 00:57:24.113301 2021] [ssl:warn] [pid 1] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Oct 27 00:57:24.113555 2021] [ssl:emerg] [pid 1] AH02562: Failed to configure certificate localhost:443:0 (with chain), check /etc/apache2/ssl/phpit.crt
+[Wed Oct 27 00:57:24.113567 2021] [ssl:emerg] [pid 1] SSL Library Error: error:140AB18F:SSL routines:SSL_CTX_use_certificate:ee key too small
+AH00016: Configuration Failed
+[Wed Oct 27 00:57:25.396917 2021] [ssl:warn] [pid 1] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Oct 27 00:57:25.397198 2021] [ssl:emerg] [pid 1] AH02562: Failed to configure certificate localhost:443:0 (with chain), check /etc/apache2/ssl/phpit.crt
+[Wed Oct 27 00:57:25.397212 2021] [ssl:emerg] [pid 1] SSL Library Error: error:140AB18F:SSL routines:SSL_CTX_use_certificate:ee key too small
+AH00016: Configuration Failed
+[Wed Oct 27 00:57:27.526378 2021] [ssl:warn] [pid 1] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Oct 27 00:57:27.526732 2021] [ssl:emerg] [pid 1] AH02562: Failed to configure certificate localhost:443:0 (with chain), check /etc/apache2/ssl/phpit.crt
+[Wed Oct 27 00:57:27.526748 2021] [ssl:emerg] [pid 1] SSL Library Error: error:140AB18F:SSL routines:SSL_CTX_use_certificate:ee key too small
+AH00016: Configuration Failed
+[Wed Oct 27 00:57:31.311076 2021] [ssl:warn] [pid 1] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Oct 27 00:57:31.311421 2021] [ssl:emerg] [pid 1] AH02562: Failed to configure certificate localhost:443:0 (with chain), check /etc/apache2/ssl/phpit.crt
+[Wed Oct 27 00:57:31.311437 2021] [ssl:emerg] [pid 1] SSL Library Error: error:140AB18F:SSL routines:SSL_CTX_use_certificate:ee key too small
+AH00016: Configuration Failed
+[Wed Oct 27 00:57:55.107660 2021] [ssl:warn] [pid 1] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Oct 27 00:57:55.108010 2021] [ssl:emerg] [pid 1] AH02562: Failed to configure certificate localhost:443:0 (with chain), check /etc/apache2/ssl/phpit.crt
+[Wed Oct 27 00:57:55.108027 2021] [ssl:emerg] [pid 1] SSL Library Error: error:140AB18F:SSL routines:SSL_CTX_use_certificate:ee key too small
+AH00016: Configuration Failed
+[Wed Oct 27 00:57:55.818476 2021] [ssl:warn] [pid 1] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Oct 27 00:57:55.818833 2021] [ssl:emerg] [pid 1] AH02562: Failed to configure certificate localhost:443:0 (with chain), check /etc/apache2/ssl/phpit.crt
+[Wed Oct 27 00:57:55.818849 2021] [ssl:emerg] [pid 1] SSL Library Error: error:140AB18F:SSL routines:SSL_CTX_use_certificate:ee key too small
+AH00016: Configuration Failed
+[Wed Oct 27 00:57:56.477810 2021] [ssl:warn] [pid 1] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Oct 27 00:57:56.478095 2021] [ssl:emerg] [pid 1] AH02562: Failed to configure certificate localhost:443:0 (with chain), check /etc/apache2/ssl/phpit.crt
+[Wed Oct 27 00:57:56.478109 2021] [ssl:emerg] [pid 1] SSL Library Error: error:140AB18F:SSL routines:SSL_CTX_use_certificate:ee key too small
+AH00016: Configuration Failed
+[Wed Oct 27 00:57:57.392585 2021] [ssl:warn] [pid 1] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Oct 27 00:57:57.392940 2021] [ssl:emerg] [pid 1] AH02562: Failed to configure certificate localhost:443:0 (with chain), check /etc/apache2/ssl/phpit.crt
+[Wed Oct 27 00:57:57.392957 2021] [ssl:emerg] [pid 1] SSL Library Error: error:140AB18F:SSL routines:SSL_CTX_use_certificate:ee key too small
+AH00016: Configuration Failed
+[Wed Oct 27 00:57:58.692510 2021] [ssl:warn] [pid 1] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Oct 27 00:57:58.692797 2021] [ssl:emerg] [pid 1] AH02562: Failed to configure certificate localhost:443:0 (with chain), check /etc/apache2/ssl/phpit.crt
+[Wed Oct 27 00:57:58.692810 2021] [ssl:emerg] [pid 1] SSL Library Error: error:140AB18F:SSL routines:SSL_CTX_use_certificate:ee key too small
+AH00016: Configuration Failed
+[Wed Oct 27 00:58:56.906171 2021] [ssl:warn] [pid 1] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Oct 27 00:58:56.942375 2021] [ssl:warn] [pid 1] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Oct 27 00:58:56.946078 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.51 (Debian) PHP/7.4.25 OpenSSL/1.1.1k configured -- resuming normal operations
+[Wed Oct 27 00:58:56.946108 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Wed Oct 27 01:02:49.658724 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+[Wed Oct 27 01:02:56.596275 2021] [ssl:warn] [pid 1] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Oct 27 01:02:56.625774 2021] [ssl:warn] [pid 1] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Oct 27 01:02:56.628949 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.51 (Debian) PHP/7.4.25 OpenSSL/1.1.1k configured -- resuming normal operations
+[Wed Oct 27 01:02:56.628973 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Wed Oct 27 01:06:04.272459 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+[Wed Oct 27 01:06:14.594084 2021] [ssl:warn] [pid 1] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Oct 27 01:06:14.630697 2021] [ssl:warn] [pid 1] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Oct 27 01:06:14.634889 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.51 (Debian) PHP/7.4.25 OpenSSL/1.1.1k configured -- resuming normal operations
+[Wed Oct 27 01:06:14.634917 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Wed Oct 27 01:13:11.379834 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+[Wed Oct 27 01:13:17.860492 2021] [ssl:warn] [pid 1] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Oct 27 01:13:17.905454 2021] [ssl:warn] [pid 1] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Oct 27 01:13:17.910230 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.51 (Debian) PHP/7.4.25 OpenSSL/1.1.1k configured -- resuming normal operations
+[Wed Oct 27 01:13:17.910260 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Wed Oct 27 01:22:15.118445 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+[Wed Oct 27 01:23:34.822361 2021] [ssl:warn] [pid 1] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Oct 27 01:23:34.849193 2021] [ssl:warn] [pid 1] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Oct 27 01:23:34.852510 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.51 (Debian) PHP/7.4.25 OpenSSL/1.1.1k configured -- resuming normal operations
+[Wed Oct 27 01:23:34.852536 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Wed Oct 27 01:26:57.954572 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+[Wed Oct 27 01:27:05.924030 2021] [ssl:warn] [pid 1] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Oct 27 01:27:05.950546 2021] [ssl:warn] [pid 1] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Oct 27 01:27:05.954843 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.51 (Debian) PHP/7.4.25 OpenSSL/1.1.1k configured -- resuming normal operations
+[Wed Oct 27 01:27:05.954880 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Wed Oct 27 01:29:26.750721 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+[Wed Oct 27 01:31:33.161913 2021] [ssl:warn] [pid 1] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Oct 27 01:31:33.188820 2021] [ssl:warn] [pid 1] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Oct 27 01:31:33.191847 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.51 (Debian) PHP/7.4.25 OpenSSL/1.1.1k configured -- resuming normal operations
+[Wed Oct 27 01:31:33.191871 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Wed Oct 27 01:32:29.072153 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+[Wed Oct 27 01:32:33.729940 2021] [ssl:warn] [pid 1] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Oct 27 01:32:33.756772 2021] [ssl:warn] [pid 1] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Oct 27 01:32:33.761560 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.51 (Debian) PHP/7.4.25 OpenSSL/1.1.1k configured -- resuming normal operations
+[Wed Oct 27 01:32:33.761588 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Wed Oct 27 01:37:09.753635 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+[Wed Oct 27 01:37:23.388386 2021] [ssl:warn] [pid 1] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Oct 27 01:37:23.415368 2021] [ssl:warn] [pid 1] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Oct 27 01:37:23.419065 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.51 (Debian) PHP/7.4.25 OpenSSL/1.1.1k configured -- resuming normal operations
+[Wed Oct 27 01:37:23.419097 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Wed Oct 27 01:37:56.800798 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+[Wed Oct 27 01:38:07.494292 2021] [ssl:warn] [pid 1] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Oct 27 01:38:07.520711 2021] [ssl:warn] [pid 1] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Oct 27 01:38:07.524102 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.51 (Debian) PHP/7.4.25 OpenSSL/1.1.1k configured -- resuming normal operations
+[Wed Oct 27 01:38:07.524127 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Wed Oct 27 01:40:02.866529 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+[Wed Oct 27 01:40:10.243636 2021] [ssl:warn] [pid 1] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Oct 27 01:40:10.266658 2021] [ssl:warn] [pid 1] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Oct 27 01:40:10.269333 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.51 (Debian) PHP/7.4.25 OpenSSL/1.1.1k configured -- resuming normal operations
+[Wed Oct 27 01:40:10.269355 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Wed Oct 27 01:51:32.341842 2021] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+[Wed Oct 27 01:51:33.016313 2021] [ssl:warn] [pid 1] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20190902/curl (/usr/local/lib/php/extensions/no-debug-non-zts-20190902/curl: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20190902/curl.so (/usr/local/lib/php/extensions/no-debug-non-zts-20190902/curl.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20190902/mbstring (/usr/local/lib/php/extensions/no-debug-non-zts-20190902/mbstring: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20190902/mbstring.so (/usr/local/lib/php/extensions/no-debug-non-zts-20190902/mbstring.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'openssl' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20190902/openssl (/usr/local/lib/php/extensions/no-debug-non-zts-20190902/openssl: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20190902/openssl.so (/usr/local/lib/php/extensions/no-debug-non-zts-20190902/openssl.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  Module 'mysqli' already loaded in Unknown on line 0
+[Wed Oct 27 01:51:33.035612 2021] [ssl:warn] [pid 1] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Oct 27 01:51:33.038195 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.51 (Debian) PHP/7.4.25 OpenSSL/1.1.1k configured -- resuming normal operations
+[Wed Oct 27 01:51:33.038227 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Wed Oct 27 02:01:45.754698 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+[Wed Oct 27 02:03:59.976541 2021] [ssl:warn] [pid 1] AH01909: 192.168.192.4:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.192.4. Set the 'ServerName' directive globally to suppress this message
+[Wed Oct 27 02:04:00.005183 2021] [ssl:warn] [pid 1] AH01909: 192.168.192.4:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Oct 27 02:04:00.008903 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.51 (Debian) PHP/7.4.25 OpenSSL/1.1.1k configured -- resuming normal operations
+[Wed Oct 27 02:04:00.008999 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Wed Oct 27 12:57:23.383342 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+[Wed Oct 27 17:10:43.246491 2021] [ssl:warn] [pid 1] AH01909: 192.168.192.4:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.192.4. Set the 'ServerName' directive globally to suppress this message
+[Wed Oct 27 17:10:43.312041 2021] [ssl:warn] [pid 1] AH01909: 192.168.192.4:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Oct 27 17:10:43.315922 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.51 (Debian) PHP/7.4.25 OpenSSL/1.1.1k configured -- resuming normal operations
+[Wed Oct 27 17:10:43.316664 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Wed Oct 27 17:22:54.904870 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+[Wed Oct 27 17:23:01.992170 2021] [ssl:warn] [pid 1] AH01909: 192.168.192.4:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.192.4. Set the 'ServerName' directive globally to suppress this message
+[Wed Oct 27 17:23:02.028044 2021] [ssl:warn] [pid 1] AH01909: 192.168.192.4:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Oct 27 17:23:02.033043 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.51 (Debian) PHP/7.4.25 OpenSSL/1.1.1k configured -- resuming normal operations
+[Wed Oct 27 17:23:02.033133 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Wed Oct 27 17:27:17.171033 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+[Wed Oct 27 17:32:14.543802 2021] [ssl:warn] [pid 1] AH01909: 192.168.192.4:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.192.4. Set the 'ServerName' directive globally to suppress this message
+[Wed Oct 27 17:32:14.576240 2021] [ssl:warn] [pid 1] AH01909: 192.168.192.4:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Oct 27 17:32:14.582316 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.51 (Debian) PHP/7.4.25 OpenSSL/1.1.1k configured -- resuming normal operations
+[Wed Oct 27 17:32:14.582364 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Wed Oct 27 17:36:35.532650 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+[Wed Oct 27 17:36:44.311015 2021] [ssl:warn] [pid 1] AH01909: 172.18.0.4:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.4. Set the 'ServerName' directive globally to suppress this message
+[Wed Oct 27 17:36:44.343198 2021] [ssl:warn] [pid 1] AH01909: 172.18.0.4:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Oct 27 17:36:44.347279 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.51 (Debian) PHP/7.4.25 OpenSSL/1.1.1k configured -- resuming normal operations
+[Wed Oct 27 17:36:44.347311 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Wed Oct 27 19:57:28.338517 2021] [php7:warn] [pid 21] [client 172.18.0.1:38094] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[Wed Oct 27 19:57:28.347011 2021] [php7:error] [pid 21] [client 172.18.0.1:38094] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /var/www/html/app/Config/Events.php:32) in /var/www/html/system/Debug/Exceptions.php:123\nStack trace:\n#0 [internal function]: CodeIgniter\\Debug\\Exceptions->errorHandler(2, 'Cannot modify h...', '/var/www/html/s...', 123, Array)\n#1 /var/www/html/system/Debug/Exceptions.php(123): header('HTTP/1.1 500 In...', true, 500)\n#2 [internal function]: CodeIgniter\\Debug\\Exceptions->exceptionHandler(Object(TypeError))\n#3 {main}\n  thrown in /var/www/html/system/Debug/Exceptions.php on line 123
+[Wed Oct 27 19:57:28.347141 2021] [php7:error] [pid 21] [client 172.18.0.1:38094] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /var/www/html/app/Config/Events.php:32) in /var/www/html/system/Debug/Exceptions.php:123\nStack trace:\n#0 [internal function]: CodeIgniter\\Debug\\Exceptions->errorHandler(2, 'Cannot modify h...', '/var/www/html/s...', 123, Array)\n#1 /var/www/html/system/Debug/Exceptions.php(123): header('HTTP/1.1 500 In...', true, 500)\n#2 /var/www/html/system/Debug/Exceptions.php(169): CodeIgniter\\Debug\\Exceptions->exceptionHandler(Object(ErrorException))\n#3 [internal function]: CodeIgniter\\Debug\\Exceptions->shutdownHandler()\n#4 {main}\n  thrown in /var/www/html/system/Debug/Exceptions.php on line 123
+[Wed Oct 27 19:58:39.813269 2021] [php7:warn] [pid 17] [client 172.18.0.1:38108] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[Wed Oct 27 19:58:39.821689 2021] [php7:error] [pid 17] [client 172.18.0.1:38108] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /var/www/html/app/Config/Events.php:32) in /var/www/html/system/Debug/Exceptions.php:123\nStack trace:\n#0 [internal function]: CodeIgniter\\Debug\\Exceptions->errorHandler(2, 'Cannot modify h...', '/var/www/html/s...', 123, Array)\n#1 /var/www/html/system/Debug/Exceptions.php(123): header('HTTP/1.1 500 In...', true, 500)\n#2 [internal function]: CodeIgniter\\Debug\\Exceptions->exceptionHandler(Object(TypeError))\n#3 {main}\n  thrown in /var/www/html/system/Debug/Exceptions.php on line 123
+[Wed Oct 27 19:58:39.821820 2021] [php7:error] [pid 17] [client 172.18.0.1:38108] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /var/www/html/app/Config/Events.php:32) in /var/www/html/system/Debug/Exceptions.php:123\nStack trace:\n#0 [internal function]: CodeIgniter\\Debug\\Exceptions->errorHandler(2, 'Cannot modify h...', '/var/www/html/s...', 123, Array)\n#1 /var/www/html/system/Debug/Exceptions.php(123): header('HTTP/1.1 500 In...', true, 500)\n#2 /var/www/html/system/Debug/Exceptions.php(169): CodeIgniter\\Debug\\Exceptions->exceptionHandler(Object(ErrorException))\n#3 [internal function]: CodeIgniter\\Debug\\Exceptions->shutdownHandler()\n#4 {main}\n  thrown in /var/www/html/system/Debug/Exceptions.php on line 123
+[Wed Oct 27 19:59:05.179445 2021] [php7:warn] [pid 19] [client 172.18.0.1:38132] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[Wed Oct 27 19:59:05.187561 2021] [php7:error] [pid 19] [client 172.18.0.1:38132] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /var/www/html/app/Config/Events.php:32) in /var/www/html/system/Debug/Exceptions.php:123\nStack trace:\n#0 [internal function]: CodeIgniter\\Debug\\Exceptions->errorHandler(2, 'Cannot modify h...', '/var/www/html/s...', 123, Array)\n#1 /var/www/html/system/Debug/Exceptions.php(123): header('HTTP/1.1 500 In...', true, 500)\n#2 [internal function]: CodeIgniter\\Debug\\Exceptions->exceptionHandler(Object(TypeError))\n#3 {main}\n  thrown in /var/www/html/system/Debug/Exceptions.php on line 123
+[Wed Oct 27 19:59:05.187694 2021] [php7:error] [pid 19] [client 172.18.0.1:38132] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /var/www/html/app/Config/Events.php:32) in /var/www/html/system/Debug/Exceptions.php:123\nStack trace:\n#0 [internal function]: CodeIgniter\\Debug\\Exceptions->errorHandler(2, 'Cannot modify h...', '/var/www/html/s...', 123, Array)\n#1 /var/www/html/system/Debug/Exceptions.php(123): header('HTTP/1.1 500 In...', true, 500)\n#2 /var/www/html/system/Debug/Exceptions.php(169): CodeIgniter\\Debug\\Exceptions->exceptionHandler(Object(ErrorException))\n#3 [internal function]: CodeIgniter\\Debug\\Exceptions->shutdownHandler()\n#4 {main}\n  thrown in /var/www/html/system/Debug/Exceptions.php on line 123
+[Wed Oct 27 20:43:20.010858 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+[Wed Oct 27 20:43:37.795813 2021] [ssl:warn] [pid 1] AH01909: 172.18.0.4:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.4. Set the 'ServerName' directive globally to suppress this message
+[Wed Oct 27 20:43:37.836660 2021] [ssl:warn] [pid 1] AH01909: 172.18.0.4:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Oct 27 20:43:37.842847 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.51 (Debian) PHP/7.4.25 OpenSSL/1.1.1k configured -- resuming normal operations
+[Wed Oct 27 20:43:37.842935 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Wed Oct 27 20:46:12.971577 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+[Wed Oct 27 20:46:24.081152 2021] [ssl:warn] [pid 1] AH01909: 172.19.0.4:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.19.0.4. Set the 'ServerName' directive globally to suppress this message
+[Wed Oct 27 20:46:24.113996 2021] [ssl:warn] [pid 1] AH01909: 172.19.0.4:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Oct 27 20:46:24.118965 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.51 (Debian) PHP/7.4.25 OpenSSL/1.1.1k configured -- resuming normal operations
+[Wed Oct 27 20:46:24.118999 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
