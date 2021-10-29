@@ -47,18 +47,39 @@ O Codeigniter implementa os PSRs 1, 2, 3, 4, 6, 7 e 16. A métodologia mvc imple
  
  O "access_token" deve ser usado como Bearer Token para acessar os recursos da api. O "token_refresh" também está descrito do retorno.
 
-### Retornos
+### Cadastos
+#### Inserir cadastro
 
-- Para os recursos de POST e PUT em caso erro, serão retornadas as mensagens de validação de cada campo.
-- Para os recursos de POST, PUT e DELETE, quando tudo ocorrer corretamente será enviado apenas um booleano "true", para diminuição de uso de dados, mas também pode ser facilmente implementado como manda as especificações REST (retorno completo de dados enviados).
+    post para https://localhost:8000/user
 
-### Em andamento:
+    {
+        "nome":"Nome Completo",         #obrigatorio, somente alfanumerios
+        "email":"email@email.com",      #obrigatorio, email valido
+        "telefone":"9999999999999",     #obrigatorio, somente numeros
+        "data_nascimento":"yyyy-mm-dd", #obrigatorio, formado date válido
+        "cpf":"999999999999",            #obrigatorio, somente numeros
+        "cep":"99999999"                #obrigatorio, somente numeros
+    }
 
-#### Tudo em um comando só
-Para maior comodidade estou trabalhando para colocar auto-ssl e as migrations/seed para rodar junto com o docker-compose.
+#### Editar cadastro
+  Diferentemente da insersão, o update aceita o envio de apenas um campo para alteração, porém o id do usuário é obrigatório.
+    
+    put para https://localhost:8000/user
+    
+    {
+        "id": 1                  #obrigatorio, numero inteiro
+        "nome":"Nome Completo"   ...
+    }
+### Listar
+  
+  Pode listar todos os cadastros ou listar apenas um passando o id por url
+    
+    get para https://localhost:8000/user[/id]
 
+    
+    
 #### Spoofing de método HTTP
-O protocolo http utilizado nos browsers acredito só implementar get e post. Mas é possível utilizar um campo input em um form html para determinar o uso da rota para update (put).
+O protocolo http utilizado nos browsers só implementa get e post. Mas é possível utilizar um campo input em um form html para determinar o uso da rota para update (put).
 https://codeigniter.com/user_guide/incoming/methodspoofing.html
 
 
