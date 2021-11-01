@@ -28,28 +28,28 @@ RUN docker-php-ext-install \
     pdo_mysql \
     mysqli
     
-
-COPY docker/apache/000-default.conf /etc/apache2/sites-avaliables/000-default.conf
-RUN a2enmod rewrite headers
-RUN mv "$PHP_INI_DIR/php.ini-development" "$PHP_INI_DIR/php.ini"
+RUN a2enmod ssl
+RUN a2enmod rewrite
+RUN a2enmod headers
 
 RUN curl -sS https://getcomposer.org/installer | php
 RUN mv composer.phar /usr/local/bin/composer
 RUN chmod +x /usr/local/bin/composer
 RUN composer self-update
 
-COPY src/ /var/www/html/
-
 RUN useradd -G www-data,root -u 1000 -d /home/devuser devuser
-RUN mkdir /etc/apache2/ssl/
 RUN mkdir -p /home/devuser/.composer && \
     chown -R devuser:devuser /home/devuser
 
-RUN openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/apache2/ssl/cert-key.pem -out /etc/apache2/ssl/cert.pem -subj "/C=BR/ST=Lucas/L=Lucas/O=Security/OU=Development/CN=localhost"
+RUN mkdir /etc/apache2/ssl/
+COPY ./cert/req.cnf /etc/apache2/req.cnf
+RUN openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/ssl/private/localhost.key -out /etc/ssl/certs/localhost.crt -config /etc/apache2/req.cnf -sha256
+RUN chmod 644 /etc/ssl/certs/localhost.crt
+RUN chmod 644 /etc/ssl/private/localhost.key
+#COPY ./000-default.conf /etc/apache2/sites-enabled/000-default.conf
 
-RUN a2ensite default-ssl
-RUN a2enmod ssl
-RUN a2ensite default-ssl.conf
+RUN update-ca-certificates
+RUN service apache2 restart
 
 EXPOSE 80
 EXPOSE 443

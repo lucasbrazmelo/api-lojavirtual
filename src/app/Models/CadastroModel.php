@@ -74,14 +74,17 @@ class CadastroModel extends Model
     protected $updatedField  = 'updated_at';
 
     protected $beforeInsert = ['findCEP'];
+    protected $beforeUpdate = ['findCEP'];
 
     protected function findCEP(array $data) {
-        $viacep = new ViaCEP();
-        $viacep->find($data['data']['cep']);
-        $data['data']['logradouro']= $viacep->getLogradouro();
-        $data['data']['cidade']= $viacep->getLocalidade();
-        $data['data']['bairro']= $viacep->getBairro();
-        $data['data']['estado']= $viacep->getUf();
+        if(isset($data['data']['cep'])){
+            $viacep = new ViaCEP();
+            $viacep->find($data['data']['cep']);
+            $data['data']['logradouro']= $viacep->getLogradouro();
+            $data['data']['cidade']= $viacep->getLocalidade();
+            $data['data']['bairro']= $viacep->getBairro();
+            $data['data']['estado']= $viacep->getUf();
+        }   
         return $data;
     }
 }
