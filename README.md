@@ -2,7 +2,7 @@
 
 ## Recursos utilizados
 
-PHP / Codeigniter 4 / MySQL / Adminer /  Docker / API ViaCep
+PHP / Codeigniter 4 / MySQL / Phpmyadmin /  Docker / API ViaCep
 
 O Codeigniter implementa os PSRs 1, 2, 3, 4, 6, 7 e 16. A métodologia mvc implementa um nível ideal de clareza e limpeza de código.
 

@@ -5,14 +5,17 @@ services:
       context: .
       dockerfile: docker/mysql/Dockerfile
     environment: 
-      MYSQL_DATABASE: "lojavirtual"
-      MYSQL_ROOT_PASSWORD: "root"
-    command: --default-authentication-plugin=mysql_native_password
+      - MYSQL_DATABASE=lojavirtual
+      - MYSQL_ROOT_PASSWORD=root
+    command: --authentication_policy=mysql_native_password
     restart: unless-stopped
     volumes:
       - ./db_data:/usr/data
     ports:
       - 3306:3306
+    networks:
+      - mynetwork
+
   web:
     build:
       context: .
@@ -20,7 +23,8 @@ services:
     restart: unless-stopped
     volumes: 
       - ./src:/var/www/html
-      - ./docker/apache/000-default.conf:/etc/apache2/sites-avaliable/000-default.conf
+      - ./docker/apache/cert/req.cnf:/etc/apache2/req.cnf
+      #- ./docker/apache/000-default.conf:/etc/apache2/sites-enabled/000-default.conf
       - ./apache_log:/var/log/apache2
     ports:
       - 8000:443
@@ -28,12 +32,29 @@ services:
       - db
     links:
       - db
+    networks:
+      - mynetwork
 
-  adminer:
-    image: adminer
-    restart: unless-stopped
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    container_name: "phpmyadmin-srv"
     ports:
-      - 8080:8080
+      - 8080:80
+    environment:
+      - PMA_ARBITRARY=1
+      - PMA_HOST=db
+      - PMA_USER=root
+      - PMA_PASSWORD=root
+    links:
+      - db
+    restart: always
+    networks:
+      - mynetwork
+
+networks:
+  mynetwork:
+    driver: bridge
+
 volumes:
   db_data:
   src:
