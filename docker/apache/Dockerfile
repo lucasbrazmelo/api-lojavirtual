@@ -46,7 +46,7 @@ COPY ./cert/req.cnf /etc/apache2/req.cnf
 RUN openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/ssl/private/localhost.key -out /etc/ssl/certs/localhost.crt -config /etc/apache2/req.cnf -sha256
 RUN chmod 644 /etc/ssl/certs/localhost.crt
 RUN chmod 644 /etc/ssl/private/localhost.key
-#COPY ./000-default.conf /etc/apache2/sites-enabled/000-default.conf
+COPY ./000-default.conf /etc/apache2/sites-enabled/000-default.conf
 
 RUN update-ca-certificates
 RUN service apache2 restart

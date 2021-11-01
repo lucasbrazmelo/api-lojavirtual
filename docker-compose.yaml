@@ -9,8 +9,6 @@ services:
       - MYSQL_ROOT_PASSWORD=root
     command: --authentication_policy=mysql_native_password
     restart: unless-stopped
-    volumes:
-      - ./db_data:/usr/data
     ports:
       - 3306:3306
     networks:
@@ -24,8 +22,6 @@ services:
     volumes: 
       - ./src:/var/www/html
       - ./docker/apache/cert/req.cnf:/etc/apache2/req.cnf
-      #- ./docker/apache/000-default.conf:/etc/apache2/sites-enabled/000-default.conf
-      - ./apache_log:/var/log/apache2
     ports:
       - 8000:443
     depends_on: 
@@ -56,5 +52,4 @@ networks:
     driver: bridge
 
 volumes:
-  db_data:
   src:
